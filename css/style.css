@@ -1,0 +1,143 @@
+body {
+    font-family: 'Syne', sans-serif;
+}
+
+li {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1E1E1E;
+}
+
+main {
+    font-family: 'Syne', sans-serif;
+    color: #1E1E1E;
+}
+
+footer {
+    background: #1E1E1E;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+footer p {
+   color: #ffffff; 
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800 !important;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 800 !important;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 800 !important;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1E1E1E !important;
+}
+
+@media (min-width: 1440px) {
+
+    header {
+        height: 150px;
+    }
+    
+    main {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    /* Welcome */
+
+    .welcome {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    /* About */
+
+    .about {
+        padding-bottom: 100px;
+    }
+    
+    /* Projects */
+
+    .latest-projects {
+        padding-bottom: 150px;
+    }
+
+    .titulo-latest {
+        padding-bottom: 50px;
+    }
+
+    .card {
+        border: 2px solid #1E1E1E;
+        padding: 50px 50px 50px 50px !important;
+    }
+
+    /* Work-Process */
+    .work-process {
+        padding-bottom: 150px;
+    }
+
+    .titulo-work {
+        padding-bottom: 50px;
+    }
+
+    .work-1 {
+        border: 2px solid #1E1E1E;
+        padding: 50px 50px 50px 50px !important;
+    }
+
+    .work-2 {
+        border: 2px solid #1E1E1E;
+        padding: 50px 50px 50px 50px !important;
+    }
+
+    .work-3 {
+        border: 2px solid #1E1E1E;
+        padding: 50px 50px 50px 50px !important;
+    }
+
+    /* Review */
+    .review {
+        padding-bottom: 150px;
+    }
+
+    .titulo-review {
+        padding-bottom: 50px;
+    }
+
+    .nota-review img {
+        padding-bottom: 25px;
+    }
+
+    .nota-review {
+        border: 2px solid #1E1E1E;
+        padding: 50px 50px 50px 50px !important;
+    }
+
+}
